@@ -1,4 +1,4 @@
-- Multithreaded sorting program, we split the array into two sections, each thread will sort a section, a third thread will merg and sort both sections.
+- Multithreaded sorting program, we split an array by half into two sections, each thread will sort a section, a third thread will merge and sort both sections.
 - to run the program from the commandline: 
 	1) type 'make' to compile, that will generate an ocject file called cthread 
 	2) use this objet file followed by a integer to execute, check the following examples:
